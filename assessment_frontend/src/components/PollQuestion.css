@@ -1,0 +1,23 @@
+.label {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  
+  button:hover .label {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .circle {
+    transition: background-color 0.3s;
+  }
+  
+  button {
+    transition: color 0.3s;
+  }
+  
+  button:hover {
+    color: #6200ea;
+  }
+  

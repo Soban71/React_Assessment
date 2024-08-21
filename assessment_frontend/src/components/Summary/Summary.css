@@ -1,0 +1,20 @@
+.summary-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.reveal-card {
+  animation: revealLeft 0.6s ease-out forwards;
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+@keyframes revealLeft {
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
